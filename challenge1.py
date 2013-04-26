@@ -30,7 +30,7 @@ def main():
 
     args = parser.parse_args()
     
-    pyrax.set_credential_file(os.path.join(os.path.expanduser("~"), "rs-creds"))
+    pyrax.set_credential_file(os.path.join(os.path.expanduser("~"), "rackspace_cloud_credentials"))
     
     cs = pyrax.cloudservers
     
