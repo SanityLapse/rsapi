@@ -18,7 +18,6 @@ import pyrax
 import argparse
 import os
 import time
-import argparse
 
 def main():
           
